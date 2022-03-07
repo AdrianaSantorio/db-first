@@ -1,18 +1,20 @@
-ID -
-Casa di Produzione -
-Modello -
-Anno di immatricolazione -
-Colore -
-Targa -
-Tappezzeria -
-Chilometraggio -
-Alimentazione -
-Trasmissione - 
-Cilindrata -
-Condizione - 
-Data di acquisizione -
-Proprietari precedenti -
-costo di acquisizione -
-Venduta -
-Prezzo proposto -
-Prezzo di cessione -
+ID - NOT-NULL,UNIQUE, AUTO-INCREMENT
+Casa_di_Produzione - VARCHAR(15) //o numero se abbiamo db collegato *
+Modello - VARCHAR(15),NOT-NULL //*
+Anno_immatricolazione - YEAR,NOT-NULL
+Colore - VARCHAR(11) //*
+Targa - UNIQUE, VARCHAR, NOT-NULL (12)
+Tappezzeria - VARCHAR(15)
+Numero_portiere - TINYINT, NOT-NULL
+Numero_Sedili - TINYINT, NOT-NULL
+Chilometraggio - INT, NOT-NULL
+Alimentazione - VARCHAR(20), NOT-NULL //*
+Trasmissione - VARCHAR(10), NOT-NULL
+Cilindrata - SMALLINT, NOT-NULL
+Condizione - TINYINT //da 1 a 10
+Data_acquisizione - DATE, NOT-NULL
+Proprietari precedenti - TINYINT
+Costo_acquisizione - FLOAT(6,2)
+Venduta - BOOL?
+Prezzo proposto - FLOAT(6,2)
+Prezzo_cessione - FLOAT(6,2)
