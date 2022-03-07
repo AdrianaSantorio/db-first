@@ -1,0 +1,18 @@
+ID -
+Casa di Produzione -
+Modello -
+Anno di immatricolazione -
+Colore -
+Targa -
+Tappezzeria -
+Chilometraggio -
+Alimentazione -
+Trasmissione - 
+Cilindrata -
+Condizione - 
+Data di acquisizione -
+Proprietari precedenti -
+costo di acquisizione -
+Venduta -
+Prezzo proposto -
+Prezzo di cessione -
